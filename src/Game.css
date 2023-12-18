@@ -1,0 +1,46 @@
+* {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url("./assets/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1;
+}
+
+.top-of-screen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.game-title {
+    font-size: 3em;
+    text-align: center;
+}
+
+.score {
+    font-size: 3em;
+    text-align: center;
+    margin-right: 1em;
+}
+
+.start-button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: xx-large;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5em 1em;
+}
